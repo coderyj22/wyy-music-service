@@ -13,6 +13,6 @@ after((done) => {
 })
 
 fs.readdirSync(path.join(__dirname, 'test'))
-.forEach(file => {
+  .forEach(file => {
     require(path.join(__dirname, 'test', file))
-})
+  })
